@@ -1,0 +1,721 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-section{
+    background-color: #fff;
+    padding: 5px 0px;
+}
+.header-section .bg-light{
+    background-color: transparent !important;
+    /* border: 1px solid orange; */
+}
+.navbar-brand .lawyer-logo img{
+    width: 130px;
+}
+.navbar .navbar-nav .nav-item{
+    margin: 0px 0px 0px 15px;
+    /* color: #28377e; */
+}
+.navbar .navbar-nav .nav-item .nav-link{
+   
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #28377e;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    /* color: rgba(0,0,0,.9); */
+    color: #28377e;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover ,  .navbar .navbar-nav .nav-item .nav-link:focus{
+    color:#f2612c ;
+}
+/* .navbar .navbar-nav .nav-item .active{
+    color: #28377e;
+    font-weight: 900;
+} */
+
+/* ************************************************** */
+/* banner-sections start */
+/* ***************************************************** */
+.banner-section{
+    background: url(../images/slider.png) center top no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.banner-section .inner-banner{
+    text-align: center;
+   
+    
+}
+.banner-section .inner-banner h1{
+    font-size: 52px;
+    color: #fff;
+    line-height: 62px;
+    padding: 150px 0px 100px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* ************************************************** */
+/* bg-sections start */
+/* ***************************************************** */
+
+.bg-section{
+    padding:80px 0px;
+}
+.bg-section .inner-bg {
+    /* border: 1px solid lime; */
+    
+}
+
+.bg-section #inner-bg-left{
+    /* border: 1px solid red; */
+    padding:40px 10px 0px 10px;
+    
+
+}
+section .inner-bg .title .box{
+    /* border: 1px solid red; */
+    width:40px;
+    height: 3px;
+    color:#f2612c ;
+    margin-bottom: 15px;
+    background-color:#f2612c ;
+}
+.bg-section .inner-bg .title h3{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color:#28377e ;
+}
+.bg-section .inner-bg .title p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #b0b0b1;
+    font-weight: 400;
+}
+#inner-bg-right .who-img{
+    /* border: 1px solid blue; */
+    width: 100%;
+    text-align: center;
+}
+   
+ /* #inner-bg-right .inner-right img{
+    height: 100%;
+    width: 100%;
+    
+}  */
+
+
+/* ************************************************** */
+/* what we do start */
+/* ***************************************************** */
+
+.what-we{
+    background:#f7f8f8;
+    padding: 50px 0px 0px 0px;
+    background:url(../images/whatwe1.png) top center no-repeat ;
+    background-size: cover;
+}
+.what-we .title {
+    text-align: center;
+}
+.what-we .title .box{
+    /* border: 1px solid red; */
+    width:40px;
+    height: 3px;
+    color:#f2612c ; 
+    background-color:#f2612c ;
+    margin: 0 auto;
+}
+.what-we .title h3{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color:#28377e ;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+    
+}
+.what-we .what-we-box{
+    /* border: 2px solid red; */
+    padding:0px;
+    margin: 0px;
+    position: relative;
+    /* background:url(../images/whatwe.png) top center no-repeat ;
+    background-size: cover; */
+}
+.what-we .what-we-box .img{
+    /* border: 1px solid blue; */
+    width: 52%;
+    position: absolute;
+    right: 0%;
+    /* display: none; */
+
+}
+.what-we .what-we-box .img img{
+    width: 100%;
+}
+.what-we .what-we-box .box-holder {
+    /* border: 1px solid aqua; */
+    /* z-index: 1; */
+    margin: 15px 0px 50px 0px;
+    /* background: blue; */
+
+ 
+}
+.box-holder .image-holder{
+    /* border: 1px solid lime; */
+   /* height: 90%; */
+  
+   height: 370px;
+   width:95%;
+   margin:0 auto;
+   /* float:right 0%; */
+   position: relative;
+   text-align: center;
+  
+    /* background: blue; */
+    
+}
+.box-holder .image-holder img{
+    height: 100%;
+    width: 100%;
+}
+.image-holder .text{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 45%;
+    color: white;
+    width: 100%;
+   
+}
+.image-holder .text h3{
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 700; */
+}
+.image-holder .arrow{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom:10%;
+    margin-left: 45%;
+
+
+    /* width: 100%; */
+ 
+}
+.image-holder .arrow img{
+    width: 40px;
+    height: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+
+/* ************************************************** */
+/*attorney start */
+/* ***************************************************** */
+
+.attorney{
+    /* border: 1px solid red; */
+    background: url(../images/main.png) center center no-repeat;
+    background-size: cover;
+    padding: 100px 0px 80px 0px;
+}
+.inner-attorney{
+    /* border: 1px solid aqua; */
+}
+.inner-attorney .title {
+    /* text-align: center; */
+}
+.inner-attorney .title .box{
+    /* border: 1px solid red; */
+    width:40px;
+    height: 3px;
+    color:#f2612c ;
+    margin-bottom: 15px;
+    margin-top: 70px;
+    background-color:#f2612c ;
+}
+.inner-attorney .title h3{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    color:#28377e ;
+    color: white;
+
+}
+.inner-attorney .title p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #b0b0b1;
+    font-weight: 400;
+}
+.inner-attorney .title .button{
+    color:#f2612c ;
+    font-size: 15px;
+    line-height: 25px;
+}
+.inner-attorney .title .button:hover,.inner-attorney .title .button:focus{
+    color: white;
+    cursor: pointer;
+}
+
+
+.inner-attorney .inner-attorney-box{
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+.inner-attorney .inner-attorney-box .image-box{
+    width: 100%;
+    /* text-align: center; */
+    position: relative;
+}
+.inner-attorney-box .image-box img{
+    width: 100%;
+}
+.image-box .text-holder{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* ************************************************ */
+/* language section start */
+/* ******************************************************* */
+
+.language{
+    padding: 80px 0px;
+}
+.language .title {
+    text-align: center;
+}
+.language .title .box{
+    /* border: 1px solid red; */
+    width:40px;
+    height: 3px;
+    color:#f2612c ;
+    margin: 0 auto;
+    background-color:#f2612c ;
+}
+.language .title h3{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    color:#28377e ;
+    text-transform: uppercase;
+    margin:15px 0px 20px 0px;
+   
+
+}
+.language .row{
+    /* border: 1px solid red; */
+}
+.inner-lan .text{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color:#28377e ;
+    margin:25px 0px 0px 0px;
+    text-transform: uppercase;
+}
+.inner-lan p{
+    font-size: 14px;
+    line-height: 24px;
+    font-size: 400;
+    color: #b0b0b1;
+}
+.inner-lan .button{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    /* color:#28377e ; */
+    color:#f2612c ;
+   
+}
+.inner-lan .button:hover, .inner-lan .button:focus{
+    color:#28377e ;
+    cursor: pointer;
+}
+/* ****************************************** */
+/* contact start */
+/* ********************************************** */
+.contact{
+    padding: 50px 0px;
+    background: #28377e;
+}
+.contact .title {
+    text-align: center;
+}
+.contact .title .box{
+    /* border: 1px solid red; */
+    width:40px;
+    height: 3px;
+    color:#f2612c ;
+    margin: 0 auto;
+    background-color:#f2612c ;
+}
+.contact .title h3{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    color:#FFF ;
+    text-transform: uppercase;
+    margin:15px 0px 20px 0px;
+   
+
+}
+.contact .inner-contact{
+    /* border: 1px solid aqua; */
+}
+.contact .inner-contact input{
+    border-bottom: 1px solid rgb(204, 204, 204,0.4);
+    border-right:none;
+    border-left: none;
+    border-top: none;
+    width:100%;
+    margin-top: 20px;
+    background: #28377e;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 0px 0px 5px 0px;
+    /* color: white; */
+}
+.contact .inner-contact input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  .contact .inner-contact .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .contact .inner-contact .submit{
+    /* border:1px solid red; */
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    padding: 1px 0px 0px;
+    color: white;
+    background-color: #f7923f;
+      
+  }
+  .contact .inner-contact .submit:hover{
+    background-color:#ff7a4a ;
+  }
+/* **************************************** */
+/* footer */
+.footer{
+    padding: 30px 0px 10px 0px;
+    background-color: #0c1234;
+    color: #b1b7dd;
+}
+
+.footer h6{
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    
+}
+.footer .logo-holder{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer .logo-holder .logo{
+    /* border: 1px solid lime; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 0px 10px;
+
+}
+.footer .logo-holder .logo li{
+    list-style: none;
+    padding: 0px 10px;
+ 
+}
+.footer .logo-holder .logo li a{
+    color: #b1b7dd;
+    text-decoration: none;
+   
+}
+.footer .logo-holder .logo li a:hover, .footer .logo-holder .logo li a:focus{
+    color: #f2612c;
+}
+
+
+
+@media (min-width:768px) and (max-width:992px){
+    .navbar .navbar-nav .nav-item{
+        /* border: 1px solid lime; */
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+        /* color: #28377e; */
+    }
+    section .inner-bg .title{
+        text-align: center;
+    }
+    section .inner-bg .title .box{
+        /* border: 1px solid red; */
+        width:40px;
+        height: 3px;
+        color:#f2612c ;
+        margin: 0 auto;
+        /* margin-bottom: 15px; */
+        background-color:#f2612c ;
+    }
+    .bg-section .inner-bg .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        margin-top: 15px;
+    }
+    .bg-section .inner-bg .title p{
+        font-size: 15px;
+        line-height: 25px;
+        color: #b0b0b1;
+        font-weight: 400;
+    }
+
+    .what-we .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+        
+    }
+    .what-we .what-we-box .box-holder {
+        /* border: 1px solid aqua; */
+        /* z-index: 1; */
+        margin: 0px 0px 30px 0px;
+        /* background: blue; */
+    
+     
+    }
+    .inner-attorney .title {
+        /* text-align: center; */
+    }
+    .inner-attorney .title .box{
+        /* border: 1px solid red; */
+        width:40px;
+        height: 3px;
+        color:#f2612c ;
+        /* margin-bottom: 15px;
+        margin-top: 70px; */
+        /* margin: 0 auto; */
+        background-color:#f2612c ;
+    }
+    .inner-attorney .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        color: white;
+        margin-top: 15px;
+    
+    }
+    .inner-attorney .title .button{
+        color:#f2612c ;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+     /* .image-box .text-holder{
+        border: 1px solid red;
+        position: absolute;
+        bottom: 10%;
+        width: 80%;
+        padding-left: 30px;
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+    }  */
+    .language .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        text-transform: uppercase;
+        margin:15px 0px 20px 0px;
+       
+    
+    }
+    .inner-lan .text{
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 700;
+        color:#28377e ;
+        margin:25px 0px 0px 0px;
+        text-transform: uppercase;
+    }
+    .contact .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#FFF ;
+        text-transform: uppercase;
+        margin:15px 0px 20px 0px;
+       
+    
+    }
+
+   
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .banner-section .inner-banner h1{
+        font-size: 35px;
+        color: #fff;
+        line-height: 45px;
+        padding: 150px 0px 100px 0px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .navbar .navbar-nav .nav-item{
+        /* border: 1px solid lime; */
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+        /* color: #28377e; */
+    }
+    section .inner-bg .title{
+        text-align: center;
+    }
+    section .inner-bg .title .box{
+        /* border: 1px solid red; */
+        width:40px;
+        height: 3px;
+        color:#f2612c ;
+        margin: 0 auto;
+        /* margin-bottom: 15px; */
+        background-color:#f2612c ;
+    }
+    .bg-section .inner-bg .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        margin-top: 15px;
+    }
+    .bg-section .inner-bg .title p{
+        font-size: 15px;
+        line-height: 25px;
+        color: #b0b0b1;
+        font-weight: 400;
+    }
+
+    .what-we .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+        
+    }
+    .what-we .what-we-box .box-holder {
+        /* border: 1px solid aqua; */
+        /* z-index: 1; */
+        margin: 0px 0px 30px 0px;
+        /* background: blue; */
+    
+     
+    }
+    .inner-attorney .title {
+        text-align: center;
+    }
+    .inner-attorney .title .box{
+        /* border: 1px solid red; */
+        width:40px;
+        height: 3px;
+        color:#f2612c ;
+        /* margin-bottom: 15px;
+        margin-top: 70px; */
+        margin: 0 auto;
+        background-color:#f2612c ;
+    }
+    .inner-attorney .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        color: white;
+        margin-top: 15px;
+    
+    }
+    .inner-attorney .title .button{
+        color:#f2612c ;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+     /* .image-box .text-holder{
+        border: 1px solid red;
+        position: absolute;
+        bottom: 10%;
+        width: 80%;
+        padding-left: 30px;
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+    }  */
+    .language .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#28377e ;
+        text-transform: uppercase;
+        margin:15px 0px 20px 0px;
+       
+    
+    }
+    .inner-lan .text{
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 700;
+        color:#28377e ;
+        margin:25px 0px 0px 0px;
+        text-transform: uppercase;
+    }
+    .contact .title h3{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        color:#FFF ;
+        text-transform: uppercase;
+        margin:15px 0px 20px 0px;
+       
+    
+    }
+
+   
+}
+
